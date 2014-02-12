@@ -33,6 +33,6 @@ DEFAULT_PAGINATION = False
 #####Custom#####
 DEFAULT_CATEGORY = 'misc'
 TYPOGRIFY = True
-PATH = 'content/'
+PATH = 'content'
 PAGE_DIR = 'pages'
 ARTICLE_DIR = 'articles'
