@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Duncan Murdock'
 SITENAME = u'Duncan Murdock'
-SITEURL = ''
+SITEURL = 'HTTP://duncanmurdock.name'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -29,3 +29,8 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#####Custom#####
+DEFAULT_CATEGORY('misc')
+ARTICLE_DIR('content/')
+TYPOGRIFY(True)
