@@ -33,4 +33,4 @@ DEFAULT_PAGINATION = False
 #####Custom#####
 DEFAULT_CATEGORY=('misc')
 ARTICLE_DIR=('content/')
-TYPOGRIFY(True)
+TYPOGRIFY=(True)
