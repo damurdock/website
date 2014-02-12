@@ -31,6 +31,6 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 #####Custom#####
-DEFAULT_CATEGORY('misc')
-ARTICLE_DIR('content/')
+DEFAULT_CATEGORY=('misc')
+ARTICLE_DIR=('content/')
 TYPOGRIFY(True)
