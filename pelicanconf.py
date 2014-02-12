@@ -34,3 +34,5 @@ DEFAULT_PAGINATION = False
 DEFAULT_CATEGORY = 'misc'
 TYPOGRIFY = True
 PATH = 'content/'
+PAGE_DIR = 'pages'
+ARTICLE_DIR = 'articles'
