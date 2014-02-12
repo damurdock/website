@@ -22,3 +22,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+THEME = 'pelican-bootstrap3'
+BOOTSTRAP_THEME = 'flatly'
+PYGMENTS_STYLE = 'solarizeddark'

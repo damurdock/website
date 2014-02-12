@@ -49,5 +49,5 @@ TAGS_SAVE_AS = None
 CATEGORY_URL = ('category/{slug}/')
 CATEGORY_SAVE_AS = ('category/{slug}/index.html')
 AUTHOR_SAVE_AS = False
-
+PYGMENTS_STYLE = 'solarizeddark'
 # Most of the custom area stolen from https://github.com/razius/razius.com/blob/master/pelicanconf.py
