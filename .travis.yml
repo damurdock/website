@@ -1,0 +1,15 @@
+language: python
+python: 2.7
+install: pip install -r requirements.txt
+script: make html
+deploy:
+  provider: heroku
+  strategy: git
+  api_key:
+    secure: X2QWH2ewdWihG/NVumFBEuCwqLl6aIEJMblNCAuvhvhMBFN/0Ktjt+EiB6/XCp2GYc75CiQkuWNFwXj9dEMxJcZ5SSWGLjbFXkvPG1N8hiimtedGnzEFGOj4ZnVxElwoOkqzMGLSdHqz5731gHE1YIM3toU3lL3xB1LfOjLU5Cg=
+  app: duncanmurdock
+  on:
+    repo: damurdock/website
+notifications:
+  email: me@duncanmurdock.name
+  on_success: always
