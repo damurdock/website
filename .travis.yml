@@ -1,4 +1,4 @@
-language: python
+language: Python
 python: 2.7
 script: echo "doing nothing"
 notifications:
