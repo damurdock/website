@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Duncan Murdock'
 SITENAME = u'Duncan Murdock'
-SITEURL = 'HTTP://duncanmurdock.herokuapp.com'
+SITEURL = 'http://www.duncanmurdock.name'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = u'en'
 
@@ -15,6 +15,10 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+# Github stuff for bootstrap
+GITHUB_USER = 'damurdock'
+GITHUB_SKIP_FORK = True
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
@@ -22,16 +26,21 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/damurdock2'),
+	('Github', 'https://www.github.com/damurdock'),)
 
 DEFAULT_PAGINATION = False
+
+CC_LICENSE = "CC-BY-NC-SA"
+
+DISQUS_SITENAME = 'duncanmurdock'
+ADDTHIS_PROFILE = 'ra-53007ced6692996d'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 #####Custom#####
-DEFAULT_CATEGORY = 'misc'
+#DEFAULT_CATEGORY = 'misc'
 TYPOGRIFY = True
 PATH = 'content'
 PAGE_DIR = 'pages'
