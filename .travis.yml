@@ -7,7 +7,7 @@ notifications:
 deploy:
   provider: heroku
   strategy: anvil
-  buildpack: https://github.com/getpelican/heroku-buildpack-pelican
+  buildpack: https://github.com/getpelican/heroku-buildpack-pelican.git
   skip_cleanup: true
   api_key:
     secure: LlwLRQas3zGfI4U34eh+V3DSxz7xW5TmPB8oSctiuwK34fpzVNfoNHT9wL8EQzyhux5sl4KXRCtZX34Rez4OHJfvj7/+ZsgXXpzcstBefWLuvKO7KaPQTCAvWWV96ShKHVUBM28gC0luuBKV1+44a64E/AoLPWIBmsQhnYhbjB8=
