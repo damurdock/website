@@ -1,5 +1,6 @@
 language: python
 python: 2.7
+script: echo "doing nothing"
 notifications:
   email: me@duncanmurdock.name
   on_success: always
