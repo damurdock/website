@@ -20,8 +20,8 @@ GITHUB_USER = 'damurdock'
 GITHUB_SKIP_FORK = True
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
+LINKS =  (('Hackaday', 'http://hackaday.com/'),
+          ('', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
           ('You can modify those links in your config file', '#'),)
 
