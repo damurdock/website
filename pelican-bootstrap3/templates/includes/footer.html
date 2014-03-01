@@ -14,7 +14,7 @@
             <a href="http://cloudflare.com" target="_blank">Cloudflare</a>,  
             <a href="http://travis-ci.org" target="_blank">Travis-CI</a>, 
             <a href="http://github.com" target="_blank">Github</a>, 
-             and <a href="http://heroku.com" target="_blank">Heroku</a>. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://travis-ci.org/damurdock/website"><img src="http://img.shields.io/travis/damurdock/website.svg"></img></a>
+             and <a href="http://heroku.com" target="_blank">Heroku</a>. &nbsp; &nbsp; &nbsp;<a href="https://travis-ci.org/damurdock/website"><img src="http://img.shields.io/travis/damurdock/website.svg"></img></a>
             {%- if CC_LICENSE or CC_LICENSE_DERIVATIVES or CC_LICENSE_COMMERCIAL %}
               {% from 'includes/cc-license.html' import cc_license_mark %}
               <p><small>{{ cc_license_mark(cc_name=CC_LICENSE,derivatives=CC_LICENSE_DERIVATIVES,commercial=CC_LICENSE_COMMERCIAL,attr_markup=CC_ATTR_MARKUP,attr_props={'title':SITENAME,'name':article.author if article else AUTHOR,'url':SITEURL}) }}</small></p>
