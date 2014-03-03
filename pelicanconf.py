@@ -21,13 +21,13 @@ GITHUB_SKIP_FORK = True
 
 # Blogroll
 LINKS =  (('Hackaday', 'http://hackaday.com/'),
-          ('', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+          ('Adafruit', 'http://adafruit.com/'),
+          ('Sparkfun', 'http://sparkfun.com/'),)
 
 # Social widget
 SOCIAL = (('Facebook', 'https://www.facebook.com/damurdock2'),
-	('Github', 'https://www.github.com/damurdock'),)
+	('Github', 'https://www.github.com/damurdock'),
+	('LinkedIn', "http://lnkd.in/bTnQP9E"),)
 
 DEFAULT_PAGINATION = False
 
@@ -35,7 +35,7 @@ CC_LICENSE = "CC-BY-NC-SA"
 
 DISQUS_SITENAME = 'duncanmurdock'
 ADDTHIS_PROFILE = 'ra-53007ced6692996d'
-GITTIP = 'damurdock'
+GITTIP_ID = 'damurdock'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -60,4 +60,6 @@ CATEGORY_URL = ('category/{slug}/')
 CATEGORY_SAVE_AS = ('category/{slug}/index.html')
 AUTHOR_SAVE_AS = False
 PYGMENTS_STYLE = 'solarizeddark'
+DISPLAY_CATEGORIES_ON_MENU = False
+SUMMARY_MAX_LENGTH = 100
 # Most of the custom area stolen from https://github.com/razius/razius.com/blob/master/pelicanconf.py
