@@ -23,7 +23,7 @@
             <meta property="fb:app_id" content="{{ OPEN_GRAPH_FB_APP_ID }}"/>
         {% endif %}
         <meta property="og:site_name" content="{{ SITENAME }}" />
-        
+        {% if article %}
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="{{ article.title|striptags }}"/>
             <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}"/>
@@ -35,7 +35,6 @@
             {% for tag in article.tags %}
             <meta property="article:tag" content="{{ tag }}" />
             {% endfor %}
-            {% if article %}
         {% elif page %}
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="{{ page.title }}"/>
