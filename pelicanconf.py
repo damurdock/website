@@ -37,6 +37,8 @@ DISQUS_SITENAME = 'duncanmurdock'
 ADDTHIS_PROFILE = 'ra-53007ced6692996d'
 GITTIP_ID = 'damurdock'
 
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
