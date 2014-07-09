@@ -49,6 +49,6 @@ Cloudflare sits between my site and the rest of the internet, giving users fast 
 
 ### Why MathJax?
 
-MathJax, via the Math Render Plugin For Pelican, lets me use math formulae and other $\LaTeX$ expressions in posts. This lets me write about math and actually show the formulae without having to write the $$ \LaTeX $$ and render it to a picture. Then, you can actually copy it, zoom in and out, and search for it. Neat stuff.
+MathJax, via the Math Render Plugin For Pelican, lets me use math formulae and other $\LaTeX$ expressions in posts. This lets me write about math and actually show the formulae without having to write the $\LaTeX$ and render it to a picture. Then, you can actually copy it, zoom in and out, and search for it. Neat stuff.
 
 So, that's the basics. I'm thinking of moving hosting to S3, but for now this is the setup. Let me know if you have any questions/comments/concerns.
