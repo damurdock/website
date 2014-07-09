@@ -1,5 +1,5 @@
 Title: New Blog and How it Works
-Date: 2014-07-09 3:30 AM
+Date: 2014-07-09 3:30
 Tags: admin, web, projects, deployment
 Category: Projects
 Slug: 01-new-blog-or
