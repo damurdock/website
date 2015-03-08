@@ -1,6 +1,6 @@
-[submodule "render_math"]
-	path = render_math
-	url = https://github.com/barrysteyn/pelican_plugin-render_math.git
 [submodule "pelican-bootstrap3"]
 	path = pelican-bootstrap3
 	url = https://github.com/DandyDev/pelican-bootstrap3.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins.git

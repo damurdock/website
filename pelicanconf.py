@@ -69,5 +69,6 @@ AUTHOR_SAVE_AS = False
 PYGMENTS_STYLE = 'solarizeddark'
 DISPLAY_CATEGORIES_ON_MENU = False
 SUMMARY_MAX_LENGTH = 500
+PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ["render_math"]
 # Most of the custom area stolen from https://github.com/razius/razius.com/blob/master/pelicanconf.py
