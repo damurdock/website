@@ -27,15 +27,20 @@ LINKS =  (('Hackaday', 'https://hackaday.com/'),
 # Social widget
 SOCIAL = (('Facebook', 'https://www.facebook.com/damurdock2'),
 	('Github', 'https://www.github.com/damurdock'),
-	('LinkedIn', "http://lnkd.in/bTnQP9E"),)
+	('LinkedIn', "https://lnkd.in/bTnQP9E"),
+	('Twitter', "https://twitter.com/hexome"),)
 
 DEFAULT_PAGINATION = False
 
 CC_LICENSE = "CC-BY-NC-SA"
 
-DISQUS_SITENAME = 'duncanmurdock'
-ADDTHIS_PROFILE = 'ra-53007ced6692996d'
-GITTIP_ID = 'damurdock'
+TWITTER_USERNAME = "hexome"
+SHARIFF_BACKEND_URL = None
+SHARIFF_LANG = "en"
+SHARIFF_ORIENTATION = "vertical"
+SHARIFF_SERVICES = ["facebook","googleplus","twitter","mail"])
+SHARIFF_THEME = "standard"
+SHARIFF_TWITTER_VIA = True
 
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 
