@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Duncan Murdock'
 SITENAME = u'Duncan Murdock'
-SITEURL = 'http://www.duncanmurdock.name'
+SITEURL = 'https://www.duncanmurdock.name'
 
 TIMEZONE = 'America/Chicago'
 
@@ -20,9 +20,9 @@ GITHUB_USER = 'damurdock'
 GITHUB_SKIP_FORK = True
 
 # Blogroll
-LINKS =  (('Hackaday', 'http://hackaday.com/'),
-          ('Adafruit', 'http://adafruit.com/'),
-          ('Sparkfun', 'http://sparkfun.com/'),)
+LINKS =  (('Hackaday', 'https://hackaday.com/'),
+          ('Adafruit', 'https://adafruit.com/'),
+          ('Sparkfun', 'https://sparkfun.com/'),)
 
 # Social widget
 SOCIAL = (('Facebook', 'https://www.facebook.com/damurdock2'),
