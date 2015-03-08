@@ -38,7 +38,7 @@ TWITTER_USERNAME = "hexome"
 SHARIFF_BACKEND_URL = None
 SHARIFF_LANG = "en"
 SHARIFF_ORIENTATION = "vertical"
-SHARIFF_SERVICES = ["facebook","googleplus","twitter","mail"])
+SHARIFF_SERVICES = ["facebook","googleplus","twitter","mail"]
 SHARIFF_THEME = "standard"
 SHARIFF_TWITTER_VIA = True
 
