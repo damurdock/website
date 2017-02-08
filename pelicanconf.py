@@ -52,8 +52,9 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 TYPOGRIFY = True
 PATH = 'content'
 PAGE_DIR = 'pages'
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 THEME = './pelican-themes/tuxlite_tbs'
-#BOOTSTRAP_THEME = 'flatly'
+BOOTSTRAP_THEME = 'flatly'
 ARTICLE_URL = ('articles/{slug}/')
 ARTICLE_SAVE_AS = ('articles/{slug}/index.html')
 PAGE_URL = ('pages/{slug}/')
@@ -70,5 +71,5 @@ PYGMENTS_STYLE = 'solarizeddark'
 DISPLAY_CATEGORIES_ON_MENU = False
 SUMMARY_MAX_LENGTH = 500
 PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS = ["render_math", "liquid_tags"]
+PLUGINS = ["render_math", "liquid_tags","i18n_subsites"]
 # Most of the custom area stolen from https://github.com/razius/razius.com/blob/master/pelicanconf.py
