@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Duncan Murdock - Projects</title><link href="https://www.duncanmurdock.name/" rel="alternate"></link><link href="https://www.duncanmurdock.name/feeds/projects.atom.xml" rel="self"></link><id>https://www.duncanmurdock.name/</id><updated>2014-07-09T03:30:00-05:00</updated><entry><title>New Blog and How it Works</title><link href="https://www.duncanmurdock.name/articles/01-new-blog-or/" rel="alternate"></link><published>2014-07-09T03:30:00-05:00</published><updated>2014-07-09T03:30:00-05:00</updated><author><name>Duncan Murdock</name></author><id>tag:www.duncanmurdock.name,2014-07-09:/articles/01-new-blog-or/</id><summary type="html">&lt;p&gt;Joining the ranks of many up-and-coming twentysomething computer types, I&amp;#8217;ve (finally) set up a personal blog. Hopefully, it will come to serve as a repository of the projects I&amp;#8217;ve made and will make, as well as what I hope are useful insights and interesting anecdotes. One thing that seems sorely missing from many blogs is a description of how all the parts fit together. Making this blog was not a trivial task, and each part was chosen for a reason. So to help future blogmakers (and so I don&amp;#8217;t forget), here it&amp;nbsp;is.&lt;/p&gt;
+&lt;h3&gt;The&amp;nbsp;Parts&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt;:&lt;/strong&gt; A Python Static Site Generator (&lt;span class="caps"&gt;SSG&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;:&lt;/strong&gt; A port of the Bootstrap3 theme framework to&amp;nbsp;Pelican&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://heroku.com"&gt;Heroku&lt;/a&gt;:&lt;/strong&gt; A Platform as a Service (PaaS) provider with a free tier and git-based&amp;nbsp;deploy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://github.com"&gt;Github&lt;/a&gt;:&lt;/strong&gt; &lt;em&gt;The&lt;/em&gt; PaaS &lt;a href="git-scm.com"&gt;Git&lt;/a&gt;&amp;nbsp;provider&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://travis-ci.com"&gt;Travis&lt;/a&gt;:&lt;/strong&gt; A free Continuous Integration (&lt;span class="caps"&gt;CI&lt;/span&gt;) provider, fed by&amp;nbsp;Github&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://cloudflare.com"&gt;Cloudflare&lt;/a&gt;:&lt;/strong&gt; A Content Delivery Network (&lt;span class="caps"&gt;CDN&lt;/span&gt;) with a free&amp;nbsp;tier&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/barrysteyn/pelican_plugin-render_math"&gt;Math Render Plugin For Pelican&lt;/a&gt;:&lt;/strong&gt; A MathJax plugin for&amp;nbsp;Pelican&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Pelican?&lt;/h3&gt;
+&lt;p&gt;SSGs are all the rage these days, and for good reason. They make lightweight websites that are easy to manage and can run almost anywhere. Pelican is based on Python (my favorite language) and has a simple theming archetecture, a buildpack for Travis, and lots of themes. Plus, it&amp;#8217;s super-simple to deploy and actively&amp;nbsp;developed.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;pelican-bootstrap3?&lt;/h3&gt;
+&lt;p&gt;Pelican-bootstrap3 brings the Bootstrap3 theme framework to Pelican. Bootstrap is &lt;em&gt;the&lt;/em&gt; framework these days, and powers a lot of the web as we know it. Seriously, just ctrl-f the source of your favorite sites for bootstrap.css and you&amp;#8217;ll see what I mean. More to the point, Bootstrap is pretty, includes glyphicons and fontawesome(so pretty glyphs all over the place), and is responsive. Responsive design, aside from being a huge buzzword, is very useful, because it means your pages are pretty &lt;em&gt;everywhere&lt;/em&gt;, not just on the&amp;nbsp;desktop.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Heroku?&lt;/h3&gt;
+&lt;p&gt;All of my previous attempts at hosting a website used nearlyfreespeech.net. &lt;span class="caps"&gt;NFSN&lt;/span&gt; is a great host, and I don&amp;#8217;t want to hate on them, but their price schedule makes it hard (for me, at least) to immediately scale. Say, for instance, I post something that makes it to hackaday and my site gets flooded (one can dream). If my cost excedes my deposited funds, then poof goes the website. Heroku, on the other hand, has limited resources, but it&amp;#8217;s free, and those resourses only scale if I want them to. Also, it&amp;#8217;s combatible with git, Pelican, and Travis nearly out of the box. The only real problem I can see is that the webserver sleeps after so long without being accessed. I could set up a script to ping the site every hour or so, but the few seconds of delay don&amp;#8217;t seem worth abusing Heroku&amp;#8217;s&amp;nbsp;generosity.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Github?&lt;/h3&gt;
+&lt;p&gt;Github makes it easy to keep track of revisions. It also allows me to write posts online and commit them. That way, I can post from any computer with …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Joining the ranks of many up-and-coming twentysomething computer types, I&amp;#8217;ve (finally) set up a personal blog. Hopefully, it will come to serve as a repository of the projects I&amp;#8217;ve made and will make, as well as what I hope are useful insights and interesting anecdotes. One thing that seems sorely missing from many blogs is a description of how all the parts fit together. Making this blog was not a trivial task, and each part was chosen for a reason. So to help future blogmakers (and so I don&amp;#8217;t forget), here it&amp;nbsp;is.&lt;/p&gt;
+&lt;h3&gt;The&amp;nbsp;Parts&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt;:&lt;/strong&gt; A Python Static Site Generator (&lt;span class="caps"&gt;SSG&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;:&lt;/strong&gt; A port of the Bootstrap3 theme framework to&amp;nbsp;Pelican&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://heroku.com"&gt;Heroku&lt;/a&gt;:&lt;/strong&gt; A Platform as a Service (PaaS) provider with a free tier and git-based&amp;nbsp;deploy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://github.com"&gt;Github&lt;/a&gt;:&lt;/strong&gt; &lt;em&gt;The&lt;/em&gt; PaaS &lt;a href="git-scm.com"&gt;Git&lt;/a&gt;&amp;nbsp;provider&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://travis-ci.com"&gt;Travis&lt;/a&gt;:&lt;/strong&gt; A free Continuous Integration (&lt;span class="caps"&gt;CI&lt;/span&gt;) provider, fed by&amp;nbsp;Github&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://cloudflare.com"&gt;Cloudflare&lt;/a&gt;:&lt;/strong&gt; A Content Delivery Network (&lt;span class="caps"&gt;CDN&lt;/span&gt;) with a free&amp;nbsp;tier&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/barrysteyn/pelican_plugin-render_math"&gt;Math Render Plugin For Pelican&lt;/a&gt;:&lt;/strong&gt; A MathJax plugin for&amp;nbsp;Pelican&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Pelican?&lt;/h3&gt;
+&lt;p&gt;SSGs are all the rage these days, and for good reason. They make lightweight websites that are easy to manage and can run almost anywhere. Pelican is based on Python (my favorite language) and has a simple theming archetecture, a buildpack for Travis, and lots of themes. Plus, it&amp;#8217;s super-simple to deploy and actively&amp;nbsp;developed.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;pelican-bootstrap3?&lt;/h3&gt;
+&lt;p&gt;Pelican-bootstrap3 brings the Bootstrap3 theme framework to Pelican. Bootstrap is &lt;em&gt;the&lt;/em&gt; framework these days, and powers a lot of the web as we know it. Seriously, just ctrl-f the source of your favorite sites for bootstrap.css and you&amp;#8217;ll see what I mean. More to the point, Bootstrap is pretty, includes glyphicons and fontawesome(so pretty glyphs all over the place), and is responsive. Responsive design, aside from being a huge buzzword, is very useful, because it means your pages are pretty &lt;em&gt;everywhere&lt;/em&gt;, not just on the&amp;nbsp;desktop.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Heroku?&lt;/h3&gt;
+&lt;p&gt;All of my previous attempts at hosting a website used nearlyfreespeech.net. &lt;span class="caps"&gt;NFSN&lt;/span&gt; is a great host, and I don&amp;#8217;t want to hate on them, but their price schedule makes it hard (for me, at least) to immediately scale. Say, for instance, I post something that makes it to hackaday and my site gets flooded (one can dream). If my cost excedes my deposited funds, then poof goes the website. Heroku, on the other hand, has limited resources, but it&amp;#8217;s free, and those resourses only scale if I want them to. Also, it&amp;#8217;s combatible with git, Pelican, and Travis nearly out of the box. The only real problem I can see is that the webserver sleeps after so long without being accessed. I could set up a script to ping the site every hour or so, but the few seconds of delay don&amp;#8217;t seem worth abusing Heroku&amp;#8217;s&amp;nbsp;generosity.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Github?&lt;/h3&gt;
+&lt;p&gt;Github makes it easy to keep track of revisions. It also allows me to write posts online and commit them. That way, I can post from any computer with ease. It also hooks into Travis&amp;nbsp;directly.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Travis?&lt;/h3&gt;
+&lt;p&gt;With Travis, all I have to do to update my site is push to the Github repo. Travis hooks in, builds the site, and deploys it to Heroku automatically. It&amp;#8217;s a little slow, but I can wait a few minutes to post,&amp;nbsp;honestly.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;Cloudflare?&lt;/h3&gt;
+&lt;p&gt;Cloudflare sits between my site and the rest of the internet, giving users fast cache access to static resources like images and css. It gives me a nice &amp;#8220;panic button&amp;#8221; in the unlikely event of a DDoS attack. Plus it has a very nice and easy to use &lt;span class="caps"&gt;DNS&lt;/span&gt;&amp;nbsp;configurator.&lt;/p&gt;
+&lt;h3&gt;Why&amp;nbsp;MathJax?&lt;/h3&gt;
+&lt;p&gt;MathJax, via the Math Render Plugin For Pelican, lets me use math formulae and other &lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt; expressions in posts. This lets me write about math and actually show the formulae without having to write the &lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt; and render it to a picture. Then, you can actually copy it, zoom in and out, and search for it. Neat&amp;nbsp;stuff.&lt;/p&gt;
+&lt;p&gt;So, that&amp;#8217;s the basics. I&amp;#8217;m thinking of moving hosting to S3, but for now this is the setup. Let me know if you have any&amp;nbsp;questions/comments/concerns.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="admin"></category><category term="web"></category><category term="projects"></category><category term="deployment"></category></entry></feed>
